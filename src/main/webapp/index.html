@@ -22,6 +22,28 @@
         <input type="hidden" name="oper" value="2" />
         <button>Listar Usuários</button>
     </form>
-
+    <br>
+    <hr>
+    <br>
+    <h3>Buscar mensagens</h3>
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br>
+        <input type="hidden" name="oper" value="1" />
+        <button>Buscar Mensagem</button>
+    </form>
+    <br>
+    <h3>Inserir mensagens</h3>
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br>
+        Texto: <input type="text" name="texto">
+        <input type="hidden" name="oper" value="2" />
+        <button>Inserir</button>
+    </form>
+    <br>
+    <h3>Listar mensagens</h3>
+    <form action="mensagem.do" method="GET">
+        <input type="hidden" name="oper" value="3" />
+        <button>Listar Mensagens</button>
+    </form>
 </body>
 </html>

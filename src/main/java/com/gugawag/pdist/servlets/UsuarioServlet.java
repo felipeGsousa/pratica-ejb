@@ -30,7 +30,6 @@ public class UsuarioServlet extends javax.servlet.http.HttpServlet {
                 }
                 break;
             }
-
         }
     }
 }
